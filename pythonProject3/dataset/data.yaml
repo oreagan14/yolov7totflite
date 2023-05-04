@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Dermacentor Reticulatus-F', 'Dermacentor Reticulatus-F-Fed', 'Dermacentor Reticulatus-M', 'Ixodes Ricinus-F', 'Ixodes Ricinus-F-Fed', 'Ixodes Ricinus-M', 'Rhipicephalus Sanguineus-F', 'Rhipicephalus Sanguineus-F-Fed', 'Rhipicephalus Sanguineus-M']
+
+roboflow:
+  workspace: bbbbbb
+  project: please-be-good-huhu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bbbbbb/please-be-good-huhu/dataset/1
